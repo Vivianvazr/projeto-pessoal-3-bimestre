@@ -1,5 +1,6 @@
 function information(informationPersonal){ 
-    return alert('olá! Bem vindo ao meu projeto pessoal! Aqui você irá conhecer mais sobre mim!')
+    prompt('Vamos conhecer mais sobre mim?')
+    confirm('sim/não')
 }
 let menu = ''
 do{
