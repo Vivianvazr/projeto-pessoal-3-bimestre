@@ -1,6 +1,6 @@
 function information(){ 
-    alert('Vamos conhecer mais sobre mim?')
-    confirm('sim/não')
+alert('Vamos conhecer mais sobre mim?')
+confirm()
 }
 information()
 
