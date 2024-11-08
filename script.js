@@ -1,6 +1,5 @@
 function information(){ 
-alert('Vamos conhecer mais sobre mim?')
-confirm()
+confirm('vamos conhecer mais sobre mim?')
 }
 information()
 
