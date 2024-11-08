@@ -1,8 +1,8 @@
-function information(informationPersonal){ 
+function information(){ 
     prompt('Vamos conhecer mais sobre mim?')
     confirm('sim/não')
 }
-information(eu)
+information()
 
 let menu = ''
 do{
