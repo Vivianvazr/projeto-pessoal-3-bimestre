@@ -1,5 +1,12 @@
 function information(){ 
 confirm('vamos conhecer mais sobre mim?')
+if (confirm===true) {
+
+}
+else {
+    confirm==false
+}
+
 }
 information()
 
