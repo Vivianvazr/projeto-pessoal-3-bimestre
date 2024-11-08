@@ -2,6 +2,8 @@ function information(informationPersonal){
     prompt('Vamos conhecer mais sobre mim?')
     confirm('sim/não')
 }
+information(eu)
+
 let menu = ''
 do{
 menu = prompt(`opção disponível
