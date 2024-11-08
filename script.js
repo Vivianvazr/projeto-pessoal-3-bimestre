@@ -1,5 +1,5 @@
 function information(){ 
-    prompt('Vamos conhecer mais sobre mim?')
+    alert('Vamos conhecer mais sobre mim?')
     confirm('sim/não')
 }
 information()
