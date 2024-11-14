@@ -1,14 +1,12 @@
 function askForInformation() {
-      
-    return confirm('Vamos conhecer mais sobre mim?');
-    }
-    
-    let wantsToKnowMore = askForInformation();
-    
-    while (!wantsToKnowMore) {
+    return confirm('Vamos conhecer mais sobre mim?')
+}
 
-let menu = ''
-do{
+let wantsToKnowMore = askForInformation()
+
+if (wantsToKnowMore) {
+    let menu = ''
+    do {
 menu = prompt(`opção disponível
     1- saber sobre meus gostos.
     2- saber sobre informações sobre minha pessoa.
@@ -25,4 +23,7 @@ menu = prompt(`opção disponível
         break
     }
 } while(menu !=="3")
+    }
+    else {
+        alert('Você optou por não conhecer mais sobre mim.')
     }
