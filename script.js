@@ -1,14 +1,11 @@
-function information(){ 
-confirm('vamos conhecer mais sobre mim?')
-if (confirm===true) {
-
-}
-else {
-    confirm==false
-}
-
-}
-information()
+function askForInformation() {
+      
+    return confirm('Vamos conhecer mais sobre mim?');
+    }
+    
+    let wantsToKnowMore = askForInformation();
+    
+    while (!wantsToKnowMore) {
 
 let menu = ''
 do{
@@ -28,3 +25,4 @@ menu = prompt(`opção disponível
         break
     }
 } while(menu !=="3")
+    }
